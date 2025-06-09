@@ -1,0 +1,16 @@
+server:
+  port: "8080"
+
+database:
+  type: "sqlite3"
+  host: "localhost"
+  port: "5432"
+  user: "postgres"
+  password: "password"
+  name: ":memory:"
+
+openai:
+  api_key: "sk-1234567890abcdefghijklmnopqrstuvwxyz"
+  model: "gpt-4o-mini"
+  base_url: "https://api.openai.com/v1"
+  use_llm: true 
